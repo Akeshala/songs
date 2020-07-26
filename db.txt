@@ -1,0 +1,19 @@
+CREATE TABLE `details_edit` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `songname` varchar(100) NOT NULL,
+  `songname1` varchar(100) NOT NULL,
+  `album` varchar(100) NOT NULL,
+  `artist` varchar(100) NOT NULL,
+`lyricist` varchar(100) NOT NULL,
+    `composer` varchar(100) NOT NULL,
+    `musician` varchar(100) NOT NULL,
+    `link` varchar(100) NOT NULL,
+    `link1` varchar(100) NOT NULL,
+    `genre` varchar(100) NOT NULL,
+    `meaning` varchar(500) NOT NULL,
+    `confirmed` varchar(100) NOT NULL
+
+    
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
